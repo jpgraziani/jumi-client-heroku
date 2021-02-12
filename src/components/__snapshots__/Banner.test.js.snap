@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner component renders a .Banner by default 1`] = `
+<div
+  className="banner"
+>
+  <h1 />
+  <p />
+  <div />
+</div>
+`;

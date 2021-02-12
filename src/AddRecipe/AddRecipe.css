@@ -1,0 +1,63 @@
+.recipe-form {
+  width: 80vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 2rem auto;
+}
+
+.recipe-form hr {
+  margin: 0;
+}
+
+.recipe-form h4 {
+  margin-top: 1rem;
+}
+
+.health-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.health-field {
+  margin-top: .5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.health-field input {
+  width: 100px;
+}
+
+.num-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+input, textarea {
+  border: none;
+  background-color: #b9e4c962;
+  width: 100%;
+  padding: 12px 20px;
+}
+
+input:focus, textarea:focus {
+  outline: none !important;
+  background-color: #b9e4c962;
+}
+
+textarea {
+  height: 200px;
+}
+
+@media screen and (min-width: 475px) {
+  .health-field input {
+    width: 100%;
+  }
+}

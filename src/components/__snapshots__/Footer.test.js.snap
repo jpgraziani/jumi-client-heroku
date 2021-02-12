@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component renders a .Footer by default 1`] = `
+<section
+  className="footer-container"
+>
+  <div
+    className="nav-footer"
+  >
+    <Link
+      className="footerLink"
+      replace={false}
+      to="/"
+    >
+      home|
+    </Link>
+    <Link
+      className="footerLink"
+      replace={false}
+      to="/add-recipe"
+    >
+      add-recipe|
+    </Link>
+    <Link
+      className="footerLink"
+      replace={false}
+      to="/recipes"
+    >
+      recipes
+    </Link>
+  </div>
+  <div
+    className="currentmood"
+  >
+    <p
+      className="end-quote"
+    >
+      exploring desert life on the west coast
+    </p>
+  </div>
+</section>
+`;

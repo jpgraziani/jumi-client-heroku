@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecipeCard component renders a .RecipeCard by default 1`] = `
+<section>
+  <div
+    className="featured-recipes-center"
+  >
+    <Link
+      replace={false}
+      to="/recipe/undefined"
+    >
+      <h4>
+         | 
+      </h4>
+      <span>
+        Invalid Date
+      </span>
+    </Link>
+  </div>
+  <button
+    className="btn-card"
+    onClick={[Function]}
+    type="button"
+  >
+    remove
+  </button>
+</section>
+`;

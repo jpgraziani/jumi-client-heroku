@@ -1,0 +1,41 @@
+.featured-recipes-center h4 {
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
+
+.featured-recipes-center span {
+  font-size: 10px;
+  position: relative;
+  top: -.5em
+}
+
+.featured-recipes-center a {
+  color: var(--mainGreen);
+}
+
+.featured-recipes-center a:hover {
+  color: var(--primaryColor);
+}
+
+.btn-card {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 10px;
+  text-decoration: none;
+  letter-spacing: var(--mainSpacing);
+  background: var(--mainWhite);
+  color: var(--primaryColor);
+  padding: 0.4rem 0.9rem;
+  border: 2px solid var(--primaryColor);
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  
+}
+
+.btn-card:hover {
+  background: transparent;
+  border: 2px solid var(--mainGreen);
+  color: var(--mainGreen);
+}

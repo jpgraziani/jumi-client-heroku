@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddRecipe component renders the complete form 1`] = `
+<section
+  className="AddNote"
+>
+  <Hero
+    hero="addHero"
+  >
+    <Banner
+      title="create a recipe"
+    >
+      <Link
+        className="btn-primary"
+        replace={false}
+        to="./"
+      >
+        return home
+      </Link>
+    </Banner>
+  </Hero>
+  <RecipeForm
+    className="recipe-form"
+    onSubmit={[Function]}
+  >
+    <section
+      className="field"
+    >
+      <label
+        htmlFor="recipe-name-input"
+      >
+        <h4>
+          Recipe Name
+        </h4>
+      </label>
+      <hr />
+      <input
+        id="recipe-name-input"
+        name="recipe-name"
+        type="text"
+      />
+    </section>
+    <section
+      className="field"
+    >
+      <label
+        htmlFor="ingredients"
+      >
+        <h4>
+          Ingredients
+        </h4>
+      </label>
+      <hr />
+      <textarea
+        id="ingredients"
+        name="ingredients"
+      />
+    </section>
+    <section
+      className="field"
+    >
+      <label
+        htmlFor="recipe-content-input"
+      >
+        <h4>
+          Directions
+        </h4>
+      </label>
+      <hr />
+      <textarea
+        id="recipe-content-input"
+        name="recipe-content"
+      />
+    </section>
+    <section
+      className="field"
+    >
+      <label
+        htmlFor="main_protein"
+      >
+        <h4>
+          Main Protein
+        </h4>
+        <hr />
+      </label>
+      <input
+        id="main_proteins"
+        name="main_protein"
+        type="text"
+      />
+    </section>
+    <section
+      className="field"
+    >
+      <div
+        className="health-wrapper"
+      >
+        <h4>
+          Health Info
+        </h4>
+      </div>
+      <hr />
+      <div
+        className="health-field"
+      >
+        <div
+          className="num-field"
+        >
+          <label
+            htmlFor="calories"
+          >
+            calories
+          </label>
+          <input
+            id="calories"
+            name="calories"
+            type="number"
+          />
+        </div>
+        <hr
+          className="hrVertical"
+        />
+        <div
+          className="num-field"
+        >
+          <label
+            htmlFor="protein"
+          >
+            protein
+          </label>
+          <input
+            id="protein"
+            name="protein"
+            type="number"
+          />
+        </div>
+      </div>
+    </section>
+    <div
+      className="buttons"
+    >
+      <button
+        className="btn-primary"
+        type="submit"
+      >
+        Add recipe
+      </button>
+    </div>
+  </RecipeForm>
+</section>
+`;

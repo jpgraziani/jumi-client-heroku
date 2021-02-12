@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecipeForm component renders a form.RecipeForm by default 1`] = `
+<form
+  action="#"
+  className="Recipe-form "
+/>
+`;
+
+exports[`RecipeForm component renders the RecipeForm given props 1`] = `
+<form
+  action="#"
+  className="Recipe-form test-class-name"
+  data-other="test-other-prop"
+>
+  <p>
+    test children
+  </p>
+</form>
+`;

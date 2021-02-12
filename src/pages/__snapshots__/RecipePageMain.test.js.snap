@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecipePageMain component renders a .RecipePageMain by default 1`] = `
+<Fragment>
+  <Hero
+    hero="singleHero"
+  >
+    <Banner
+      title="undefined"
+    >
+      <Link
+        className="btn-primary"
+        replace={false}
+        to="/recipes"
+      >
+        back to recipes
+      </Link>
+    </Banner>
+  </Hero>
+  <section
+    className="single-recipe"
+  >
+    <div
+      className="single-recipe-info"
+    >
+      <article
+        className="desc"
+      >
+        <h3>
+          ingredients
+        </h3>
+        <hr />
+      </article>
+      <article
+        className="desc"
+      >
+        <h3>
+          directions
+        </h3>
+        <hr />
+      </article>
+      <article
+        className="desc health-hr"
+      >
+        <h3>
+          health benefits
+        </h3>
+        <hr />
+        <article
+          className="health-info"
+        >
+          <div>
+            <h4>
+              calories
+            </h4>
+          </div>
+          <hr
+            className="hrVertical"
+          />
+          <div>
+            <h4>
+              protein
+            </h4>
+            g
+          </div>
+        </article>
+        <hr
+          className="hrThin"
+        />
+      </article>
+    </div>
+  </section>
+</Fragment>
+`;
