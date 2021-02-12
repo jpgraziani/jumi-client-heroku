@@ -10,8 +10,6 @@ const Footer = () => {
         <Link className="footerLink" to='/'>home|</Link>
         <Link className="footerLink" to='/add-recipe'>add-recipe|</Link>
         <Link className="footerLink" to='/recipes'>recipes</Link>
-      </div>
-      <div className='currentmood'>
         <p className='end-quote'>exploring desert life on the west coast</p>
       </div>
     </section>
