@@ -18,9 +18,9 @@ exports[`Services component renders a .Services by default 1`] = `
       <span>
         <FaBabyCarriage />
       </span>
-      <h5>
+      <h3>
         baby food/toddler
-      </h5>
+      </h3>
       <p>
         We are currently exploring new foods for our child so we are always updating our site with new ideas.
       </p>
@@ -32,9 +32,9 @@ exports[`Services component renders a .Services by default 1`] = `
       <span>
         <FaHandHoldingHeart />
       </span>
-      <h5>
+      <h3>
         healthy lifestyle
-      </h5>
+      </h3>
       <p>
         We beleive in eating well and exercise can help give a happy healthy lifestyle. Look good, feel good.
       </p>
@@ -46,9 +46,9 @@ exports[`Services component renders a .Services by default 1`] = `
       <span>
         <FaFish />
       </span>
-      <h5>
+      <h3>
         recipes we make daily
-      </h5>
+      </h3>
       <p>
         We are a new family learning the way around the kitchen, so we make sure our recipes are easy peasy to cook.
       </p>
@@ -60,9 +60,9 @@ exports[`Services component renders a .Services by default 1`] = `
       <span>
         <FaBook />
       </span>
-      <h5>
+      <h3>
         education
-      </h5>
+      </h3>
       <p>
         We believe a continued healthy lifestyle comes from knowledge so we are here to share our findings on this journey.
       </p>

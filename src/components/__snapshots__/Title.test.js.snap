@@ -1,12 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Hero component renders a .Hero by default 1`] = `<header />`;
-
 exports[`Title component renders a .Tile by default 1`] = `
 <div
   className="section-title"
 >
-  <h4 />
+  <h2 />
   <div />
 </div>
 `;

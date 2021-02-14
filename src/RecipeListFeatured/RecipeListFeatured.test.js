@@ -1,6 +1,6 @@
 import React from 'react';
 import toJSON from 'enzyme-to-json';
-import RecipeListMain from './RecipeListFeatured';
+import RecipeListFeatured from './RecipeListFeatured';
 import renderer from 'react-test-renderer';
 import ApiContext from  '../ApiContext';
 
@@ -47,7 +47,7 @@ describe.skip(`RecipeListMain component`, () => {
   it('renders UI expeacted', () => {
     const tree = renderer
       .create(<ApiContext.Provider value={context}> 
-                <RecipeListMain /> 
+                <RecipeListFeatured /> 
               </ApiContext.Provider>)
       .toJSON();
     expect(tree).toMatchSnapshot();
@@ -62,7 +62,7 @@ describe.skip(`RecipeListMain component`, () => {
       }
     }
 
-    const ul = (<RecipeListMain {...props} />, context)
+    const ul = (<RecipeListFeatured {...props} />, context)
       .find('ul')
     expect(toJSON(ul)).toMatchSnapshot()
   })

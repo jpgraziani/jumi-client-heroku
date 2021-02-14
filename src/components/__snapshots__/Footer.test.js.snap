@@ -29,14 +29,10 @@ exports[`Footer component renders a .Footer by default 1`] = `
       recipes
     </Link>
   </div>
-  <div
-    className="currentmood"
+  <p
+    className="end-quote"
   >
-    <p
-      className="end-quote"
-    >
-      exploring desert life on the west coast
-    </p>
-  </div>
+    exploring desert life on the west coast
+  </p>
 </section>
 `;

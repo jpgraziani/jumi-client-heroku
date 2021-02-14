@@ -9,9 +9,9 @@ exports[`RecipeCard component renders a .RecipeCard by default 1`] = `
       replace={false}
       to="/recipe/undefined"
     >
-      <h4>
+      <h2>
          | 
-      </h4>
+      </h2>
       <span>
         Invalid Date
       </span>
