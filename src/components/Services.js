@@ -41,7 +41,7 @@ class Services extends Component {
         {this.state.service.map((item, id) => {
           return <article key={id} className='service'>
           <span>{item.icon}</span>
-          <h5>{item.title}</h5>
+          <h3>{item.title}</h3>
           <p>{item.info}</p>
           </article>
         })}

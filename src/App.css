@@ -6,9 +6,11 @@
 
 :root {
   --primaryColor: #FD5523; 
+  --primaryBtnColor: #d7491e; 
   --mainWhite: #FFFBE6; 
   --offWhite: #FFFBE6; 
-  --mainGreen: #356859; 
+  --white: #fff;
+  --mainGreen: #285448; 
   --lightLightGreeen: #B9E4C9; 
   --lightGreen: #9bcbbd;
   --mainTransition: all 0.3s linear;
@@ -77,7 +79,7 @@ ul {
   text-decoration: none;
   letter-spacing: var(--mainSpacing);
   background: var(--primaryColor);
-  color: #B9E4C9;
+  color: black;
   padding: 0.4rem 0.9rem;
   border: 3px solid var(--primaryColor);
   transition: var(--mainTransition);

@@ -37,6 +37,7 @@ exports[`AddRecipe component renders the complete form 1`] = `
       <input
         id="recipe-name-input"
         name="recipe-name"
+        required={true}
         type="text"
       />
     </section>
@@ -54,6 +55,7 @@ exports[`AddRecipe component renders the complete form 1`] = `
       <textarea
         id="ingredients"
         name="ingredients"
+        required={true}
       />
     </section>
     <section
@@ -70,6 +72,7 @@ exports[`AddRecipe component renders the complete form 1`] = `
       <textarea
         id="recipe-content-input"
         name="recipe-content"
+        required={true}
       />
     </section>
     <section
@@ -86,6 +89,7 @@ exports[`AddRecipe component renders the complete form 1`] = `
       <input
         id="main_proteins"
         name="main_protein"
+        required={true}
         type="text"
       />
     </section>
@@ -114,6 +118,7 @@ exports[`AddRecipe component renders the complete form 1`] = `
           <input
             id="calories"
             name="calories"
+            required={true}
             type="number"
           />
         </div>
@@ -131,6 +136,7 @@ exports[`AddRecipe component renders the complete form 1`] = `
           <input
             id="protein"
             name="protein"
+            required={true}
             type="number"
           />
         </div>

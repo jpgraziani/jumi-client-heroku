@@ -1,11 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import { Route } from 'react-router-dom'
 import NavBar from  './NavBar/NavBar'
 import HomePage from './pages/HomePage'
+import RecipeListFeatured from './RecipeListFeatured/RecipeListFeatured'
 import RecipeListMain from './RecipeListMain/RecipeListMain'
 import RecipePageMain from './pages/RecipePageMain'
 import AddRecipe from './AddRecipe/AddRecipe'
 import Footer from './components/Footer'
+import Error from './pages/Error'
 import ApiContext from './ApiContext'
 import config from './config'
 import './App.css'
@@ -48,13 +50,14 @@ class App extends Component {
 
   renderMainRoutes() {
     return (
-      <>
+      <Fragment>
         <Route exact path='/' component={HomePage} />
-        <Route exact path='/' component={RecipeListMain} />
+        <Route exact path='/' component={RecipeListFeatured} />
         <Route excat path='/recipes' component={RecipeListMain} />
-        <Route path='/recipe/:recipeId' component={RecipePageMain} />
-        <Route path='/add-recipe' component={AddRecipe} />
-      </>
+        <Route excat path='/recipe/:recipeId' component={RecipePageMain} />
+        <Route excat path='/add-recipe' component={AddRecipe} />
+        <Route excat path='/error' component={Error} />
+      </Fragment>
     )
   }
 
@@ -64,7 +67,7 @@ class App extends Component {
       addRecipe: this.handleAddRecipe,
       deleteRecipe: this.handleDeleteRecipe,
     }
-    console.log(value.recipes)
+   
     return (
       <main className='App'>
         <NavBar />

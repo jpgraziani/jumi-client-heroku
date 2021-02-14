@@ -23,9 +23,10 @@
 }
 
 
-.services h5 {
+.services h3 {
   margin: 0;
   letter-spacing: var(--mainSpacing);
+  line-height: 24px;
   text-transform: uppercase;
 }
 

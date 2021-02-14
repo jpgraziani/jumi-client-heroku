@@ -10,7 +10,7 @@ const Home = () => {
     <Fragment>
       <Hero hero='defaultHero'>
         <Banner title='easy peasy recipes'>
-          <Link to='./recipes' className='btn-primary'>discover recipes</Link>
+          <Link to='./recipes' className='btn-primary' alt='discover recipes'>discover recipes</Link>
         </Banner>
       </Hero>
       <Services />

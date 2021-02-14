@@ -42,7 +42,7 @@ export default class RecipeCard extends React.Component {
       <section>
           <div className='featured-recipes-center'>
             <Link to={`/recipe/${id}`}>
-              <h4>{name} | {main_protein}</h4>
+              <h2>{name} | {main_protein}</h2>
               <span>{format(created, 'Do MMM YYYY')}</span>
             </Link>
           </div>

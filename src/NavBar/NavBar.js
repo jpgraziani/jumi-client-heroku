@@ -23,14 +23,16 @@ export default class Navbar extends Component {
             </Link>
             <button 
               type='button' 
-              className='nav-btn' 
+              className='nav-btn'
+              value='nav button' 
               onClick={this.handleToggle}>
-              <FaAlignRight className='nav-icon' />
-            </button>
+                <FaAlignRight className='nav-icon' />.
+              </button>
+              
+              
           </div>
           <div className='links-container'>
             <ul className={this.state.isOpen ? 'nav-links show-nav' : 'nav-links'}>
-              <li><Link to='/' className='nav-path-link'>home</Link></li>
               <li><Link to='/add-recipe' className='nav-path-link'>add-recipe</Link></li>
               <li><Link to='/recipes' className='nav-path-link'>recipes</Link></li>
             </ul>

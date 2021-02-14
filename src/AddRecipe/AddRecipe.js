@@ -27,7 +27,7 @@ export default class AddRecipe extends Component {
       calories: e.target['calories'].value,
       protein: e.target['protein'].value
     }
-    console.log(newRecipe)
+    
     fetch(`${config.API_ENDPOINT}/recipes`, {
       method: 'POST',
       headers: {
@@ -64,28 +64,28 @@ export default class AddRecipe extends Component {
               <h4>Recipe Name</h4>
             </label>
             <hr />
-            <input type='text' id='recipe-name-input' name='recipe-name' />
+            <input type='text' id='recipe-name-input' name='recipe-name' required/>
           </section>
           <section className='field'>
             <label htmlFor='ingredients'>
               <h4>Ingredients</h4>
             </label>
             <hr />
-            <textarea id='ingredients' name='ingredients' />
+            <textarea id='ingredients' name='ingredients' required/>
           </section>
           <section className='field'>
             <label htmlFor='recipe-content-input'>
               <h4>Directions</h4>
             </label>
             <hr />
-            <textarea id='recipe-content-input' name='recipe-content' />
+            <textarea id='recipe-content-input' name='recipe-content' required/>
           </section>
           <section className='field'>
             <label htmlFor='main_protein'>
               <h4>Main Protein</h4>
               <hr />
             </label>
-            <input type='text' id='main_proteins' name='main_protein' />
+            <input type='text' id='main_proteins' name='main_protein' required/>
           </section>
           <section className='field'>
             <div className='health-wrapper'>
@@ -97,14 +97,14 @@ export default class AddRecipe extends Component {
                 <label htmlFor='calories'>
                   calories
                 </label>
-                <input type='number' id='calories' name='calories' />
+                <input type='number' id='calories' name='calories' required/>
               </div>
               <hr className='hrVertical' />
               <div className='num-field'>
                 <label htmlFor='protein'>
                   protein
                 </label>
-                <input type='number' id='protein' name='protein' />
+                <input type='number' id='protein' name='protein' required/>
               </div>
             </div>
           </section>
